@@ -1,0 +1,217 @@
+@media screen and (min-width:1000px){
+    header{
+        left:0;
+        position: relative;
+        z-index: 3;
+    }
+    .bars_and_logo_wrapper{
+        width: 85%;
+        margin:0 auto;
+        background-color:unset;
+        display: flex;
+        justify-content: space-between;
+        padding:17px 20px;
+        flex-direction: row;
+    }
+    .flex_1{
+        order: 2;
+   }
+   .flex_2{
+        order: 1;
+   }
+   .flex_3{
+        display:block;
+        order: 3;
+   }
+   .flex_4{
+        display:none;
+
+   }
+    .logo_section{
+        background-color: whitesmoke;
+    }
+    /* desktop_login */
+    .desktop_login{
+        width: 140px;
+        display: flex;
+        order:3;
+        justify-content: space-between;
+    }
+  
+      
+      /* header_content_hide */
+    .header_content_hide{
+        all:unset;
+    }
+    .nav_ul{
+        display:flex;
+        justify-content: space-between;
+        width: 90%;
+        margin:0 auto;
+        margin-top: 30px;
+        background: #000000;
+        z-index: 3;
+        position: relative;
+        border: 0.7px solid #4D4D4D;
+  
+    }
+    .nav_flex_seperate{
+        flex-grow: .5;
+        display:flex;
+        justify-content: space-between;
+    }
+    /* Search */
+    .Search{
+        margin-right:20px;
+    }
+  
+  
+    .nav_ul .nav_ul_li{
+        line-height: 3;
+        border-bottom:unset;
+    }
+    .nav_ul .nav_ul_li:nth-child(1){
+        border-top:unset;
+    }
+   
+    .top_header{
+        all:unset;
+    }
+    .login_wrappers{
+        all:unset;
+    }
+    .menu{
+        display: none;
+    }
+  
+    .mobile_login_wrapper{
+        display:none;
+    }
+   /* header styling ended */
+
+
+   /* main_shownase_area_wrapper */
+ .main_shownase_area_wrapper{
+        width: 90%;
+        margin:0px auto;
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        position: relative;
+        z-index: 2;
+
+ }
+
+/* international_section styling started here */
+    .international_section{
+        height: 400px;
+        grid-area: unset;
+        grid-column: 1/5;
+        grid-row: 1/5;
+
+    }
+
+    .carousel_content{
+        height: 400px;
+    }
+
+
+    .entertainment_section{
+        grid-area: unset;
+        grid-column: 5/7;
+    }
+    .political_section{
+        grid-area: unset;
+        grid-column:  5/7;
+    }
+
+    /* international_section styling started ended*/
+    .entertainment_section, .political_section{
+        height: calc( 390px / 2);
+        border: 1.00662px solid #6A6A6A;
+    }
+
+    /* trending_card_wrapper */
+    .trending_card_wrapper{
+        grid-gap: 18px; 
+    }
+
+    /* trending_card_wrapper */
+    /*==================================  health_carousel ================================== */
+    .health_wrapper_content{
+        width: 85%;
+        margin: 0px auto;
+        overflow: hidden;
+        padding: 50px 0;
+    }
+    .health_carousel{
+        height:40vh;
+        scroll-snap-type: unset;
+        overflow-x: unset;
+        grid-template-columns: unset;
+        display: block;
+    }
+
+    .health_btn_slide_wrapper{
+        display: block;
+    }
+    
+    .health_carousel_ul{
+        position: absolute;
+        height: 100%;
+        top: 0;
+        width: 100%;
+        overflow: hidden;
+        scroll-snap-align: unset;
+    
+    }
+    .health_content_grid .health_image{
+        height: 40vh; 
+    }
+   
+    .health_content_grid .health_txt{
+        height: 40vh;
+    
+    } 
+       /*==================================  health_carousel ================================
+    /* local_content_grid */
+    .local_content{
+        width: 85%;
+        margin: 0 auto;
+        position: relative;
+    }
+    .local_content_grid {
+        display: grid;
+        height:500px;
+        grid-template-columns: repeat(3, 1fr);
+        scroll-snap-type: unset;
+        overflow-x: unset;
+        margin: 0;
+        grid-gap: 10px;
+        grid-template-areas: 
+        'localbox1   localbox2  localbox3 ' 
+        ' localbox4  localbox2   localbox5'        
+    }
+    .local_box{
+        overflow: hidden;
+        position: relative;
+        height: unset;
+        scroll-snap-align: unset;
+    }
+    .local_box_1{
+        grid-area:localbox1;
+    }
+    .local_box_2{
+        grid-area:localbox2;
+    }
+    .local_box_3{
+        grid-area:localbox3;
+    }
+    .local_box_4{
+        grid-area:localbox4;
+    }
+    .local_box_5{
+        grid-area:localbox5;
+    }
+
+ 
+}

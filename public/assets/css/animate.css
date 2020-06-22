@@ -1,0 +1,108 @@
+@keyframes zoom{
+    100%{
+        width:100%;
+    }
+}
+
+.banner_1{
+    animation: banner1 12s linear infinite;
+}
+.banner_2{
+    animation: banner2 12s linear infinite;
+}
+.banner_3{
+    animation: banner3 12s linear infinite;
+}
+.banner_4{
+    animation: banner4 12s linear infinite;
+}
+@keyframes banner1{
+    0%{
+        visibility:visible;
+  
+    }
+    25%{
+        visibility:hidden;
+    }
+    50%{
+        visibility:hidden;
+    }
+    70%{
+        visibility:hidden;
+    }
+    100%{
+        visibility:hidden;
+    }
+}
+
+@keyframes banner2{
+    0%{
+        visibility:hidden;
+    }
+    25%{
+        visibility:hidden;
+    }
+    50%{
+        visibility:visible;
+    }
+    70%{
+        visibility:hidden;
+    }
+    100%{
+        visibility:hidden;
+        opacity:.5;
+    }
+}
+
+@keyframes banner3{
+    0%{
+        visibility:hidden;
+      
+    }
+    25%{
+        visibility:hidden;
+    }
+    50%{
+        visibility:hidden;
+    }
+    60%{
+        visibility:visible;
+    }
+    100%{
+        visibility:hidden;
+        opacity:0.8;
+
+    }
+}
+
+
+@keyframes banner4{
+    0%{
+        visibility:hidden;
+    }
+    25%{
+        visibility:hidden;
+    }
+    50%{
+        visibility:hidden;
+    }
+    75%{
+        visibility:hidden;
+    }
+    100%{
+        visibility:visible;
+
+    }
+}
+
+@keyframes welcome_Text_left{
+    0%{left:-1000px;}
+    50%{left: 0px;transform:translateX(100px)}
+    100%{transform:translateX(0px)}
+}
+
+@keyframes welcome_Text_right{
+    0%{right:-1000px;}
+    50%{right: 0px;transform:translateX(-100px)}
+    100%{transform:translateY(0px)}
+}
